@@ -142,6 +142,11 @@ async def on_raw_reaction_add(payload):
                 print("Couldn't find the done channel.")
 
 
+@bot.command(name='status')
+async def status(ctx):
+    await ctx.send(True)
+
+
 @bot.event
 async def on_command_error(ctx, error):
     """Handles errors for commands."""
