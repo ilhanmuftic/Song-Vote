@@ -1,0 +1,15 @@
+# Exclude IDE configuration files
+.idea/
+
+# Exclude environment variable files
+.env
+
+# Exclude Python cache files
+__pycache__/
+
+# Additional exclusions (optional)
+.git/
+*.md
+*.log
+Dockerfile
+docker-compose.yml
